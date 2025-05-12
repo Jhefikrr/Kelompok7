@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .card{
+            border-radius: 10px 100px 10px 100px;
+            box-shadow: rgba(255, 255, 255, 0.56) 0px 22px 70px 4px;
+            width: 400px;
+            height: 500px;
+            margin-top: 200px;
+            margin-left: 700px;
+            animation: mymove 3s infinite;
+        }
+        @keyframes mymove {
+            50% {box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+        }
+        .table{
+            margin-top: 70px;
+            box-shadow: rgb(14, 30, 37) 0px 2px 4px 0px, rgb(14, 30, 37) 0px 2px 16px 0px;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 30px;
+            padding-bottom: 50px;
+        }
+        h1{
+            display: flex;
+            justify-content: left;
+            padding-left: 40px;
+            padding-top: 40px;
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        input{
+            margin: 10px;
+            border: none;
+            /* border-radius: 5px; */
+            background-color: transparent;
+            box-shadow: rgb(0, 0, 0) 0px 2px, rgba(0, 0, 0, 0.623) 0px 2px;
+            padding: 10px;
+            color: white;
+            padding-right: 100px;
+        }
+        input::-webkit-input-placeholder{
+            color: white;
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: transparent;
+            box-shadow: rgb(255, 255, 255) 0px 2px 4px 0px, rgb(255, 255, 255) 0px 2px 16px 0px;
+            margin-left: 150px;
+            margin-top: 50px;
+            font-size: 15px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        a{
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+        body{
+            background-image: url(./img/gunung.jpg);
+            background-size: cover;  
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h1>Register</h1>
+        <div class="table">
+        <input type="text" placeholder="Nama...">
+        <input type="email" placeholder="Email...">
+    </div>
+    <button><b><a href="#">Masuk</a></b></button>
+    </div>
+</body>
+</html>
